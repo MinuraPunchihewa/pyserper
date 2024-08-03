@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyserper"
+version = "0.1.0"
+description = "The Python SDK for the Serper API."
+authors = ["Minura Punchihewa <minurapunchihewa17@gmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
